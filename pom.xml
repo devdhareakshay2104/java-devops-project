@@ -7,43 +7,77 @@
 
     <modelVersion>4.0.0</modelVersion>
 
+    <!-- Project Information -->
     <groupId>com.example</groupId>
 
     <artifactId>java-devops-project</artifactId>
 
     <version>1.0</version>
 
+    <name>Java DevOps Project</name>
+
+    <description>
+        Java Maven application for automated CI/CD deployment using Jenkins and Ansible on AWS
+    </description>
+
+
+    <!-- Java Configuration -->
     <properties>
+
         <maven.compiler.source>17</maven.compiler.source>
+
         <maven.compiler.target>17</maven.compiler.target>
+
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
     </properties>
 
+
+    <!-- Dependencies -->
     <dependencies>
 
+        <!-- JUnit 5 for Unit Testing -->
         <dependency>
+
             <groupId>org.junit.jupiter</groupId>
+
             <artifactId>junit-jupiter</artifactId>
+
             <version>5.10.2</version>
+
             <scope>test</scope>
+
         </dependency>
 
     </dependencies>
 
+
+    <!-- Build Configuration -->
     <build>
 
         <plugins>
 
+            <!-- Maven Compiler Plugin -->
             <plugin>
+
                 <groupId>org.apache.maven.plugins</groupId>
+
                 <artifactId>maven-compiler-plugin</artifactId>
+
                 <version>3.13.0</version>
+
             </plugin>
 
+
+            <!-- Maven Surefire Plugin for Unit Tests -->
             <plugin>
+
                 <groupId>org.apache.maven.plugins</groupId>
+
                 <artifactId>maven-surefire-plugin</artifactId>
+
                 <version>3.2.5</version>
+
             </plugin>
 
         </plugins>
