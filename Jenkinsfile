@@ -49,6 +49,16 @@ pipeline {
 
         }
 
+        stage('Deploy') {
+
+            steps {
+
+                echo 'Deployment will be performed using Ansible on AWS.'
+
+            }
+
+        }
+
     }
 
 }
