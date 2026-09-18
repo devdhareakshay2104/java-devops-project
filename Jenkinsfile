@@ -2,6 +2,10 @@ pipeline {
 
     agent any
 
+    tools {
+        maven 'Maven-3'
+    }
+
     stages {
 
         stage('Checkout') {
@@ -9,6 +13,16 @@ pipeline {
             steps {
 
                 checkout scm
+
+            }
+
+        }
+
+        stage('Build') {
+
+            steps {
+
+                sh 'mvn clean package'
 
             }
 
