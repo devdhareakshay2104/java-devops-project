@@ -11,4 +11,14 @@ public class AppTest {
         assertEquals("Java DevOps Project", App.getMessage());
 
     }
+
+    @Test
+    void applicationNameTest() {
+
+        assertEquals(
+                "Java Maven CI/CD Application",
+                App.getApplicationName()
+        );
+
+    }
 }
