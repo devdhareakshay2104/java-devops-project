@@ -40,7 +40,7 @@ The main objective of this project is to automate the process of:
 
 ---
 
-## Project Structure
+## Project Structure:
 
 ```text
 java-devops-project
