@@ -1,6 +1,6 @@
-# Java DevOps Project
+# Java DevOps Project:
 
-## Java Maven Application Automated CI/CD Deployment on AWS using Jenkins and Ansible
+## Java Maven Application Automated CI/CD Deployment on AWS using Jenkins and Ansible:
 
 This project demonstrates the development, build, testing, and planned automated deployment of a Java Maven application using DevOps tools and AWS.
 
