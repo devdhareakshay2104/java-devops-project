@@ -8,7 +8,7 @@ The project is being developed step-by-step to understand the complete CI/CD wor
 
 ---
 
-## Project Objective
+## Project Objective:
 
 The main objective of this project is to automate the process of:
 
