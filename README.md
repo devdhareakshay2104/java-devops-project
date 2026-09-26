@@ -24,7 +24,7 @@ The main objective of this project is to automate the process of:
 
 ---
 
-## Technologies Used
+## Technologies Used:
 
 | Technology | Purpose |
 |---|---|
