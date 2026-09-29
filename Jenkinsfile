@@ -6,7 +6,11 @@ pipeline {
         maven 'Maven-3'
     }
 
-   
+    environment {
+        ANSIBLE_SERVER = '13.235.70.39'
+        ANSIBLE_USER = 'ubuntu'
+        SSH_KEY = '/var/lib/jenkins/.ssh/id_rsa'
+    }
 
     stages {
 
